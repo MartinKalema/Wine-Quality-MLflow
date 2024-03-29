@@ -46,7 +46,6 @@ list_of_files = [
     "app.py",
     ".gitignore",
     "logs/logfile.log",
-    "mlflow.py"
 
 
 ]
