@@ -4,7 +4,7 @@ import zipfile
 import urllib.request as request
 from wineQuality import logger
 from wineQuality.entity.entity_configuration import DataIngestionConfig
-from wineQuality.utilities.common import get_size
+from wineQuality.utils.common import get_size
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
