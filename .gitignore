@@ -160,3 +160,17 @@ cython_debug/
 #.idea/
 
 artifacts/*
+
+# DVC directories
+.dvc/cache/
+.dvc/tmp/
+.dvc/config.local
+.dvc/state
+
+# DVC file extensions
+.dvc/*.lock
+.dvc/*.log
+
+# DVC meta-files
+*.dvc
+*.dvc.lock
